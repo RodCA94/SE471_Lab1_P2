@@ -1,3 +1,3 @@
 public interface WeaponPanel_IF {
-    public void display();
+    public String display();
 }
