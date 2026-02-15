@@ -7,12 +7,12 @@ import javafx.stage.Stage;
 public class Tester extends Application {
     @Override
     public void start(Stage stage) {
-        Label label = new Label("Hello JavaFX!");
+        Label label = new Label("Lab 1");
 
         StackPane root = new StackPane(label);
         Scene scene = new Scene(root, 400, 200);
 
-        stage.setTitle("My First JavaFX App");
+        stage.setTitle("SE 471");
         stage.setScene(scene);
         stage.show();
     }
